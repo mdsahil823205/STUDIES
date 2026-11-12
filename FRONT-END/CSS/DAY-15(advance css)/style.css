@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.balls{
+    display: flex;
+    gap: 10px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.
+.red{
+    background-color: rgb(152, 29, 29);
+}
+.green{
+    background-color: rgb(21, 219, 143);
+}
+.blue{
+    background-color: blueviolet;
+}
+.balls:has(.blue) .ball{
+    border: 2px solid white;
+    background-color: blueviolet;
+} */
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+}
+.red {
+  background-color: rgb(152, 29, 29);
+}
+.green {
+  background-color: rgb(21, 219, 143);
+}
+.blue {
+  background-color: blueviolet;
+}
+.boxes:has(.box:hover) .box{
+    scale: 0.8;
+}
+.boxes .box:hover{
+    scale: 1 !important;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+  user-select: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(132, 201, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel {
+  height: 93%;
+  width: 78%;
+  background-color: white;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+.ptop {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(70, 116, 70);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem 5rem;
+}
+.hit,
+.time,
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  color: white;
+}
+span {
+  background-color: white;
+  padding: 0.4rem 1.3rem;
+  border-radius: 0.4rem;
+  margin-left: 0.6rem;
+  color: rgb(5, 81, 55);
+  font-weight: 600;
+}
+.pbtm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  width: 100%;
+  height: calc(100% - 5rem);
+  background-color: rgb(234, 228, 228);
+  padding: 1.2rem;
+}
+h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: crimson;
+}
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: rgb(15, 62, 28);
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+}
+.bubble:hover {
+  background-color: rgb(9, 54, 22);
+  cursor: pointer;
+  transition: all linear 0.1s;
+}
+button{
+    color: green;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+button:active{
+    scale: 0.8;
+    transition: all linear 0.1s;
+}

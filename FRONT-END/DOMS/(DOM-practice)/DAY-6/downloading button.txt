@@ -1,0 +1,3 @@
+DAY-6 main maine ek downloading progressbar banaya with thh help of html and css aur usme hum 
+apna javascript ka code implement kiye jaise ki downlad button pe click karne pe progress baar main fill hone lage
+yeh mainse doms ka set interval function se kiya

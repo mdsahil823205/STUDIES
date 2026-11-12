@@ -1,0 +1,5 @@
+// javascript maim total 3 type ke storage hote hai jo ke ek database hota hai browser ka only for browser storage
+1.localstorage APi isme hum 5 mb ka store karte hai hai woh bhi permanently hota hai
+2.sessionStorage API isme bhi hum 5mb ka data store kar skte hai par tempoarily 
+3.cookies API isme hum 4kb ka hi data store kate hai permanently localstorage ke jaisa cookies main jo bhi data dhaalenge woh page jaise reload karenge automatically server ke paas chale  jaaiyega
+

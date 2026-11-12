@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+  color: white;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 20px;
+  user-select: none;
+}
+h1 {
+  font-size: 4rem;
+  color: blue;
+  margin-left: 7rem;
+}
+button#increment {
+  background-color: rgb(89, 166, 68);
+  /* color: black; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+button#decrement {
+  background-color: rgb(219, 33, 33);
+  /* color: black; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+button:active{
+  scale: 0.90;
+  transition: all linear 0.3s;
+}
+.maxi{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 1rem;
+}

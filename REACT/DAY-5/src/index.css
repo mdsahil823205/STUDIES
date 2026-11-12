@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+  color: rgb(234, 234, 234);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card{
+   font-family: "Noto Nastaliq Urdu";
+}
+.card2{
+   font-family: "Redaction 35";
+}
+

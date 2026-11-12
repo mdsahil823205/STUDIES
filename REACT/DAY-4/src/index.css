@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+  color: rgb(234, 234, 234);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+
+.button {
+  padding: 1rem 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 42, 42);
+  margin-right: 4rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  border-style: none;
+  border: 2px solid wheat;
+  font-size: 1rem;
+}

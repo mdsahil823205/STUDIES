@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./typography.css";
+:root {
+  --color-mybrand: #00acf0; /* tumhara custom orange color */
+}
+ .typography p {
+            font-size: 1.25rem;
+            color: var(--color-gray-700);
+        }
+
+        .typography h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color:var( --color-mybrand);
+        }
+
+        .typography img {
+            border-radius: var(--radius-lg);
+            margin-top: 1rem;
+        }
+        @layer utilities {
+  .text-mybrand {
+    --color-mybrand: #ff5733;
+    color: var(--color-mybrand);
+  }
+}

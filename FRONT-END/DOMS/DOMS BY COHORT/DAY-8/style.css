@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(230, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piano {
+  height: 400px;
+  width: 60%;
+  display: flex;
+  border: 2px solid black;
+  user-select: none;
+}
+.piano .key {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 10%;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 20px;
+}
+.piano .key:active{
+   background-color: rgb(151, 151, 161);
+}

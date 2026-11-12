@@ -1,0 +1,56 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'gilroy';
+color: black;
+}
+html,body{
+width:100%;
+height:100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/1200x/ae/69/5b/ae695bf484020ad96debdfb68962b7f2.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.card h1{
+    width:fit-content;
+    font-size: 1.6rem;
+    color: rgb(108, 90, 90);
+    background-color: red;
+    margin: 105% 30%;
+    text-transform: capitalize;
+    color: white;
+    user-select: none;
+}
+.card i{
+    color: transparent;
+    background-image: url(https://preview.colorkit.co/gradient/f9ce34-ee2a7b-6228d7.png?size=wallpaper&scale=0.25&static=true);
+    background-size: cover;
+    background-clip: text;
+    font-size: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(0)rotate(-30deg);
+    transition: transform linear 0.2s;
+    opacity: 0.5;
+}
+.card:hover{
+    cursor: pointer;
+}

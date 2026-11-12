@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  anchor-name: --some-task;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  height: fit-content;
+  width: fit-content;
+  font-size: 30px;
+  transition: all 0.2s linear;
+ 
+  padding: 5px 20px;
+}
+.text:hover {
+  anchor-name: --some-task;
+  cursor: pointer;
+}
+.anchor {
+  background-color: rgb(219, 214, 214);
+  position: absolute;
+  top: anchor(top);
+  right: anchor(right);
+  bottom: anchor(bottom);
+  left: anchor(left);
+  position-anchor: --some-task;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: all 0.7s linear;
+   border-radius: 20px;
+}

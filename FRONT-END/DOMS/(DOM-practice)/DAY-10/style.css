@@ -1,0 +1,40 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'gilroy';
+}
+html,body{
+width:100%;
+height:100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.elem{
+    height: 20%;
+    width: 100%;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 5rem;
+    color: white;
+    text-transform: capitalize;
+}
+.elem img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}

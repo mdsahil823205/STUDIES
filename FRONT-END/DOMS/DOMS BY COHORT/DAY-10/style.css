@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+:root {
+  --x: 200px;
+  --y: 200px;
+  --text-small: 2rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: var(--text-small);
+  color: rgb(1, 255, 1);
+}

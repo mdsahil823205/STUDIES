@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+  color: rgb(234, 234, 234);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text {
+  color: red;
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+  background-color: rebeccapurple;
+  border-radius: 20px;
+  padding: 10px 30px;
+  /* margin: 10px 20px 500px 300px; */
+  position: absolute ;
+  top: 40px;
+  right: 30px;
+  bottom: 30px;
+  height: 70%;
+  left: 80px;
+  border: 3px solid rgb(222, 216, 216);
+  width: 86%;
+}

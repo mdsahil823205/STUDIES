@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+
+        i {
+            color: black;
+            -webkit-text-stroke: 1.2px;
+        }
+
+        .h1 {
+            font-size: 2rem;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="h-screen w-full bg-black text-amber-50">
+        <input type="file" class="hidden" />
+        <button class="rounded-2xl text-xl capitalize font-medium bg-amber-600 select-none hover:bg-amber-900">
+            <i class="ri-file-line"></i> upload
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@font-face {
+  font-family: dc;
+  src: url(./sf-pro-text_regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+  display: grid;
+  grid-template-columns: 25vw 1fr 1fr 1fr;
+  grid-template-rows: 55vh 1fr;
+  grid-template-areas: "lefts tops tops tops" "lefts starts centers ends";
+  gap: 5px;
+  text-align: center;
+  color: white;
+}
+main .lefts {
+  grid-area: lefts;
+  background-image: url(https://i.pinimg.com/736x/6d/56/0c/6d560c55abaa51081268d4cffdd4b172.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1.5rem;
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: red;
+  font-family: dc;
+}
+main .tops {
+  grid-area: tops;
+  background-image: url(https://i.pinimg.com/1200x/c5/02/1c/c5021c7f7bf216cb9fc539a58b91c377.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: green;
+  font-family: dc;
+}
+main .starts {
+  grid-area: starts;
+  background-image: url(https://i.pinimg.com/1200x/49/73/4d/49734d7b85fb47cea5985d79c023aeb5.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: blue;
+  font-family: dc;
+}
+main .centers {
+  grid-area: centers;
+  background-image: url(https://i.pinimg.com/1200x/15/a8/51/15a8515d3540215983f9d7431aabaab5.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: yellow;
+  font-family: dc;
+}
+main .ends {
+  grid-area: ends;
+  background-image: url(https://i.pinimg.com/736x/d0/37/93/d037930472af9f7da5fb7a85ac2770ce.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: rgb(237, 9, 169);
+  font-family: dc;
+}/*# sourceMappingURL=style.css.map */
