@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gilroy';
+   color: rgb(234, 234, 234);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+button{
+  padding: 20px 40px;
+  background-color: black;
+  border: 2px solid white;
+  margin-left: 13px ;
+  border-radius: 10px;
+}
+button:active{
+  scale: 0.98;
+}

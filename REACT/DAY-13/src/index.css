@@ -1,0 +1,35 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gilroy';
+   color: rgb(234, 234, 234);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+}
+.header{
+  background-color: rebeccapurple;
+  height: 20vh;
+}
+.layout{
+  background-color: rgb(18, 32, 18);
+  height: 60vh;
+}
+.hero{
+  background-color: rgb(138, 153, 51);
+  height: 20vh;
+  margin-top: 10vh;
+}
+.about{
+  background-color: rgb(96, 46, 172);
+  height: 20vh;
+}
+.footer{
+   background-color: rgb(172, 90, 46);
+  height: 20vh;
+}
+
