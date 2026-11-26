@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+html,
+body,div {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input,button{
+  border: 2px solid wheat;
+  margin-top: 5px;
+  padding: 2px 5px;
+}
+p{
+  margin-top: 20px;
+  border: 2px solid white;
+  padding: 5px 10px;
+}

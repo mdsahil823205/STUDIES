@@ -13,3 +13,14 @@ day-12 props in details
 day-13 data flow in react
 day-14 usestate in react
 day-15 hooks in react
+day-16 color switcher game
+day-17 quiz game
+day-18 event handling
+day-19 conditional rendering
+day-20 small 2 project (display popup and responsive nabvar)
+day-21 list rendering
+day-22 practice project making product card using props and state
+day-23 handle input
+day-24 handle checkbox
+day-25 handle radiobox
+day-26 handle select dropdown

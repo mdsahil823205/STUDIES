@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(39, 38, 38);
+  color: wheat;
+  padding: 10px;
+}
+
+select,
+option {
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: black;
+  text-transform: uppercase;
+}
